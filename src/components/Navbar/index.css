@@ -1,0 +1,21 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 8px 5px -1px rgba(5, 172, 238, 0.192);
+    -webkit-box-shadow: 0px 8px 5px -1px rgba(5, 172, 238, 0.192);
+    -moz-box-shadow: 0px 8px 5px -1px rgba(5, 172, 238, 0.192);
+    height: 45px;
+}
+
+.app-name {
+    font-size: 22px;
+    border: 1px solid lightgrey;
+    padding: 2px;
+}
+
+@media(max-width: 767px){
+    .app-name {
+        font-size: 20px;
+    }
+}

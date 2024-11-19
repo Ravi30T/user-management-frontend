@@ -1,0 +1,338 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-main-container {
+    margin: 0px;
+    padding: 10px;
+}
+
+.app-heading {
+    font-size: 25px;
+}
+
+.loader-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.loader svg {
+    width: 30px !important; 
+    height: 30px !important;
+}
+
+.add-user-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.add-user-btn {
+    border: none;
+    outline: none;
+    background-color: rgb(58, 58, 236);
+    color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.form-main-container {
+    background-color: rgb(238, 234, 234);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -3px 9px 31px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px 9px 31px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 9px 31px 3px rgba(0,0,0,0.75);
+        
+}
+
+.popup-overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.new-user-form-close-btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-new-user-heading {
+    text-align: center;
+}
+
+.new-users-inputs-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.firstname-lastname-email-department-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.new-user-labels {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.user-confirmation-message-submit-btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-user-confimation-msg-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.new-user-check-box {
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.new-user-form-btn {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(10, 151, 233);
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 55px;
+    margin-top: 5px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 13px;
+    text-align: center;
+}
+
+.action-btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.new-user-form-close-btn {
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 22px;
+}
+
+.edit-del-btn {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.no-users-msg {
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+@media(max-width: 767px){
+    .app-heading {
+        font-size: 20px;
+    }
+
+    .form-main-container {
+        width: 80vw;
+    }
+
+    .new-users-inputs-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .add-new-user-heading {
+        font-size: 18px;
+    }
+
+    .new-user-input-box {
+        width: 60vw;
+        outline-color: rgb(107, 17, 226);
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid grey;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .new-user-confirmation-label {
+        font-size: 13px;
+    }
+
+    .table-user-id {
+        width: 8vw;
+        font-size: 13px;
+        background-color: rgb(81, 214, 238);
+    }
+
+    .table-user-id-data {
+        width: 8vw;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .table-firstname-lastname {
+        width: 8vw;
+        font-size: 13px;
+        background-color: rgb(81, 214, 238);
+    }
+
+    .table-firstname-lastname-data {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .table-email {
+        width: 12vw;
+        font-size: 13px;
+        background-color: rgb(81, 214, 238);
+    }
+
+    .table-email-data{
+        font-size: 13px;
+        overflow-x: auto;
+        text-align: center;
+    }
+
+    .table-email-data::-webkit-scrollbar {
+        display: none;
+    }
+
+    .edit-del-btn {
+        font-size: 18px;
+    }
+
+    .table-department {
+        width: 8vw;
+        font-size: 13px;
+        background-color: rgb(81, 214, 238);
+    }
+
+    .table-department-data {
+        width: 8vw;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .table-options{
+        width: 10vw;
+        height: 25px;
+        background-color: rgb(81, 214, 238);
+        font-size: 13px;
+    }
+
+    .no-users-msg {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 768px){
+    .form-main-container {
+        width: 50vw;
+    }
+
+    .add-new-user-heading {
+        font-size: 20px;
+    }
+
+    .new-user-input-box {
+        width: 30vw;
+        outline-color: rgb(107, 17, 226);
+        height: 28px;
+        border-radius: 4px;
+        border: 1px solid grey;
+        padding: 5px;
+    }
+
+    .table-user-id {
+        width: 10vw;
+        font-size: 14px;
+        background-color: rgb(81, 214, 238);
+    }
+
+    .table-user-id-data {
+        width: 10vw;
+        text-align: center;
+        font-size: 14px;
+        overflow-x: scroll;
+    }
+
+    .table-user-id-data::-webkit-scrollbar {
+        display: none;
+    }
+
+    .edit-del-btn {
+        font-size: 16px;
+    }
+
+    
+    .table-firstname-lastname {
+        width: 10vw;
+        font-size: 14px;
+        background-color: rgb(81, 214, 238);
+    }
+
+    .table-firstname-lastname-data {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .table-email {
+        width: 15vw;
+        font-size: 14px;
+        background-color: rgb(81, 214, 238);
+    }
+
+    .table-email-data{
+        font-size: 14px;
+        overflow-x: auto;
+        text-align: center;
+    }
+
+    .table-email-data::-webkit-scrollbar {
+        display: none;
+    }
+
+    .table-department {
+        width: 10vw;
+        font-size: 14px;
+        background-color: rgb(81, 214, 238);
+    }
+
+    .table-department-data {
+        width: 10vw;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .table-options {
+        width: 10vw;
+        font-size: 14px;
+        background-color: rgb(81, 214, 238);
+        height: 27px;
+    }
+
+}
+
