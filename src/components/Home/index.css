@@ -147,6 +147,25 @@
     font-size: 22px;
 }
 
+.users-data-container {
+    overflow-x: auto; 
+    width: 100%; 
+  }
+  
+  .users-data-container table {
+    min-width: 800px; 
+  }
+  
+  .users-data-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .users-data-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+    display: none;
+  }
+
 @media(max-width: 767px){
     .app-heading {
         font-size: 20px;
@@ -335,4 +354,3 @@
     }
 
 }
-
