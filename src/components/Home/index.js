@@ -257,7 +257,7 @@ const Home = () => {
                                         <th className="table-firstname-lastname">Last Name</th>
                                         <th className="table-email">Email</th>
                                         <th className="table-department">Department</th>
-                                        <th className="table-options"> Options </th>
+                                        <th className="table-options"> Action </th>
                                     </tr>
                                     </thead>
                                     <tbody>
